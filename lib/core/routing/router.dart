@@ -33,6 +33,7 @@ Route generateRoute(RouteSettings settings) {
       return MaterialPageRoute(
         settings: settings,
         builder: (context) => const AddProductsScreen(),
+        
       );
     case Routes.adminScreen:
       return MaterialPageRoute(
