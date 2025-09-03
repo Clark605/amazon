@@ -10,7 +10,7 @@ const productRouter = require("./routes/product");
 //INIT
 const PORT = 3000;
 const app = express();
-const DB = "mongodb+srv://clarkremon12:Clark_372005@cluster0.soellvq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+const DB = process.env.MONGO_DB;
 
 //MIDDLEWARE
 app.use(express.json()); // Add this line to parse JSON bodies
