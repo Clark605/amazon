@@ -149,7 +149,7 @@ Flutter app:
 flutter run
 ```
 
-## 📱 Screenshots
+
 
 The app includes:
 - Modern Material Design 3 UI
